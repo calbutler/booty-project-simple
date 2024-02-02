@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&family=Rubik:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Poppins:wght@100;300;500;700&family=Rubik:wght@400;500;700&display=swap');
+
+:root {
+    --themeBlue:#1E88E5;
+    --themeGreen:#0A9396;
+    --themeDark:#1E1E1E;
+    --themeLight:#FFFFFF12;
+}
+
+.bg-color {
+    background-color: var(--themeLight);
+}
+
+h1,
+h2,
+h3 {
+    color: var(--themeBlue);
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: var(--themeDark);
+}
+
+.nav-link {
+    color: var(--themeDark);
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link.active {
+    color: var(--themeBlue) !important;
+}
+
+.btn-outline-primary {
+    border-color: var(--themeBlue);
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.btn-primary {
+    background-color: var(--themeBlue);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.carousel-item {
+    height: 550px;
+}
+
+.text-themeDark {
+    color: var(--themeDark);
+}
+
+.bd-placeholder-img-1 {
+    background-image: url(/Images/news-anchor.jpg);   
+    background-size: cover;
+}
+
+.nav-logo {
+  font-family: "League Spartan", sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  font-style: normal;
+}
+
+.carousel-img {
+    object-fit: cover;
+    object-position: center;
+}
+
+.card-cover {
+    background-position: center;
+    background-size: cover;
+}
